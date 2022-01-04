@@ -1,0 +1,11 @@
+fun2=()=>{
+    setTimeout(()=>{
+        console.log("chhaya")
+    },3000)
+}
+fun1=()=>{
+    console.log("karuna")
+    fun2()
+    console.log("saloni")
+}
+fun1()
